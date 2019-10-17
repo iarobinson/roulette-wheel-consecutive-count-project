@@ -1,0 +1,27 @@
+<html>
+<head>
+  <script>
+    // console.log("Hello From Consecutive Finder!");
+  </script>
+  <script type="text/javascript" src="consecutive_finder.js"></script>
+</head>
+
+<body>
+  <h1>Consecutive Finder</h1>
+  <p>This tool can generate as many roulette wheels spins as you desire.</p>
+  <p>It is designed to tell you how many consecutive results occure in that batch of roulette spins.</p>
+  <p>For example, if you played 5 roulette spins and the results were black, red, red, red and black, you would have had a maximum consecutive red results of 3.</p>
+  <p>Enjoy!</p>
+  <form id="form" onsubmit="return false;">
+    <p>Input your desired spin count here:</p>
+    <input type="text" id="userInput" />
+    <input type="submit" onclick="othername();" />
+    <p><em>Be careful because huge numbers can be a problem for your browser. It could crash if you go nuts.</em></p>
+  </form>
+  <div id="roulette_wheel_results_area">
+    <p>Click the results button first</p>
+  </div>
+
+
+</body>
+</html>
